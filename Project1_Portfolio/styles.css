@@ -19,6 +19,16 @@ header {
     color: #fff;
     padding: 20px 0;
 }
+.header-image {
+    width: 100%;            /* Makes the image as wide as the header */
+    max-width: 600px;       /* Limits the image width on larger screens */
+    height: auto;           /* Maintains aspect ratio */
+    display: block;         /* Centers the image horizontally */
+    margin: 0 auto 15px;    /* Adds margin below the image for spacing */
+    border-radius: 10px;    /* Optional: Rounds the image corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Optional: Adds a subtle shadow */
+}
+
 
 header h1 {
     font-size: 2.5em;
